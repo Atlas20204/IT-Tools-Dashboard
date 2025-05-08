@@ -1,0 +1,54 @@
+:root {
+  --CARD-COLOR-RGB: 34, 34, 34;
+  --BORDER-COLOR: #3c403f;
+}
+
+#iframeCard {
+  background: #000;
+}
+
+.system-status {
+  color: white;
+}
+
+.system-status .desc {
+  background-color: #000000b5;
+}
+
+.system-status .expand-button {
+  border: 1px solid rgba(255,255,255,.12);
+  background-color: #000000b5;
+  color: #888;
+}
+
+.system-status .expand-button.active, .system-status .expand-button:hover {
+  background-color: #222222;
+}
+
+.uk-navbar-dropdown {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #3c403f;
+}
+
+.uk-navbar-dropdown li a {
+	color: #fff !important;
+}
+
+.uk-navbar-dropbar {
+  background: #222;
+}
+
+.uk-nav-divider {
+	border-top: 1px solid var(--BORDER-COLOR) !important;
+}
+
+::-webkit-scrollbar {
+  background-color: #222;
+  border-radius: 500px;
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ffffffd4;
+  border-radius: 500px;
+}

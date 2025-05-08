@@ -1,0 +1,21 @@
+<div class="uk-card uk-card-primary">
+    <div class="uk-card-header">
+        <h4 class="uk-card-title" uk-icon="server">
+            <a target="_blank" href="https://swconf.apps.mst.edu/auth-cgi-bin/cgiwrap/swconf/menu.pl">Port Search</a>
+        </h4>
+    </div>
+    <div class="uk-card-body">
+        <!-- Building list will be filled by JS -->
+        <datalist id="buildingList">
+            <option value="Buildings list failed to load"></option>
+        </datalist>
+        <div class="inputs">
+            <input id="portBuilding" class="uk-input uk-form-width-medium uk-form-small" list="buildingList" type="text" placeholder="Building" />
+            <input id="portNumber" class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Port Number" />
+        </div>
+        <br />
+        <button id="portButton" class="uk-button uk-button-default uk-button-small" onclick="handlePorts()">
+            Search
+        </button>
+    </div>
+</div>
